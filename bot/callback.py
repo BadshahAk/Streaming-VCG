@@ -4,10 +4,10 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, 
 @Client.on_callback_query(filters.regex("cbguide"))
 async def cbguide(_, query: CallbackQuery):
   await query.edit_message_text(
-    f"""❓ Cara menggunakan bot inj:
+    f"""❓ Cara menggunakan bot ini:
 1.) pertama, tambahkan saya ke groupmu.
 2.) lalu promote saya menjadi admin , dan berikan semua izin kecuali admin anonim.
-3.) tambahkan @riovideostreambot ke groupmu.
+3.) tambahkan @riostreamingbot ke groupmu.
 4.) nyalakan voice chat terlebih dahulu sebelum memulai stream video.
 5.) tulis /stream (reply ke video) untuk memulai streaming.
 6.) tulis /stop untuk menghentikan video streaming.
@@ -25,7 +25,7 @@ async def cbstart(_, query: CallbackQuery):
                                 reply_markup=InlineKeyboardMarkup(
                        [[
                           InlineKeyboardButton(
-                             "❓ HOW TO USE ME", callback_data="cbguide")
+                             "❓ Cara Menggunakan Saya", callback_data="cbguide")
                        ],[
                           InlineKeyboardButton(
                              "🌐 Terms & Condition", callback_data="cbinfo")
