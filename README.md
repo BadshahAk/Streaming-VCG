@@ -19,7 +19,7 @@ telegram bot project for streaming video on telegram video chat, powered by [tgc
 
 ## 🧪 Get STRING_SESSION from below:
 
-TAP THIS: [![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@levinalab/StringSession#main.py)
+Tekan Disini: [![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@RioProjectX/StringSession#main.py)
 
 ## Heroku Deployment 💜
 The easy way to host this bot, deploy to Heroku
