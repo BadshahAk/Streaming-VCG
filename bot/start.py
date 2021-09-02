@@ -4,23 +4,23 @@ from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, 
 @Client.on_message(filters.command("start"))
 async def start(client, m: Message):
    if m.chat.type == 'private':
-      await m.reply(f"✨ **Hello, I am a telegram video streaming bot.**\n\n💭 **I was created to stream videos in group video chats easily.**\n\n❔ **To find out how to use me, please press the help button below** 👇🏻",
+      await m.reply(f"✨ **Halo, Saya Adalah telegram video streaming bot.**\n\n💭 **Saya Dibuat Untuk Memutar Video di group voice chats dengan mudah.**\n\n❔ **Cara Menggunakan Saya, Tolong Tekan Tombol Dibawah inj** 👇🏻",
                     reply_markup=InlineKeyboardMarkup(
                        [[
                           InlineKeyboardButton(
-                             "❔ HOW TO USE THIS BOT", callback_data="cbguide")
+                             "👑Developer", url="https://t.me/riio00")
                        ],[
                           InlineKeyboardButton(
                              "🌐 Terms & Condition", callback_data="cbinfo")
                        ],[
                           InlineKeyboardButton(
-                             "👩🏻‍💻 Developer", url="https://t.me/dlwrml")
+                             " Cara Menggunakan Saya❓", callback_data="cbguide")
                        ],[
                           InlineKeyboardButton(
-                             "💭 Group", url="https://t.me/VeezSupportGroup"),
+                             "📣 Group", url="https://t.me/VeezSupportGroup"),
                           InlineKeyboardButton(
-                             "✨ Channel", url="https://t.me/levinachannel")
+                             "📣 Channel", url="https://t.me/riobotsupport")
                        ]]
                     ))
    else:
-      await m.reply("**✨ bot is online now ✨**")
+      await m.reply("**✨ Bot Online ✨**")
