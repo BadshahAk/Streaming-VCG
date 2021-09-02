@@ -10,9 +10,7 @@ telegram bot project for streaming video on telegram video chat, powered by [tgc
     <a href="https://github.com/levina-lab/video-stream"> <img src="https://img.shields.io/github/repo-size/levina-lab/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
     <a href="https://github.com/levina-lab/video-stream/commits/main"> <img src="https://img.shields.io/github/last-commit/levina-lab/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
     <a href="https://github.com/levina-lab/video-stream/issues"> <img src="https://img.shields.io/github/issues/levina-lab/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/levina-lab/video-stream/network/members"> <img src="https://img.shields.io/github/forks/levina-lab/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>  
-    <a href="https://github.com/levina-lab/video-stream/network/members"> <img src="https://img.shields.io/github/stars/levina-lab/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>  
-</p>
+    
 
 ## 🛠 Commands:
 - /stream (reply to video) - to start video streaming
@@ -26,10 +24,10 @@ TAP THIS: [![GenerateString](https://img.shields.io/badge/repl.it-generateString
 ## Heroku Deployment 💜
 The easy way to host this bot, deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/levina-lab/video-stream)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/RioProjectX/Streaming-VCG)
 
 # Deploy On Railway
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/levina-lab/video-stream&envs=API_ID,API_HASH,BOT_TOKEN,SESSION_NAME)
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/RioProjectX/streaming-VCG&envs=API_ID,API_HASH,BOT_TOKEN,SESSION_NAME)
 
 
 # Special Credits 💖
