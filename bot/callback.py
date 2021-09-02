@@ -4,7 +4,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, 
 @Client.on_callback_query(filters.regex("cbguide"))
 async def cbguide(_, query: CallbackQuery):
   await query.edit_message_text(
-    f"""❓ HOW TO USE THIS BOT:
+    f"""❓ Cara menggunakan bot inj:
 1.) pertama, tambahkan saya ke groupmu.
 2.) lalu promote saya menjadi admin , dan berikan semua izin kecuali admin anonim.
 3.) tambahkan @riovideostreambot ke groupmu.
